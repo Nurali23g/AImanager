@@ -1,7 +1,7 @@
 -- =========================
 -- CLIENTS
 -- =========================
-CREATE TABLE IF NOT EXISTS clients (
+CREATE TABLE IF NOT EXISTS clients ( 
     id SERIAL PRIMARY KEY,
     phone VARCHAR(20) UNIQUE NOT NULL,
     parent_name TEXT,
