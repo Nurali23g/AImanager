@@ -9,3 +9,4 @@ COPY claudev.py .
 COPY products.txt .
 
 CMD ["uvicorn", "claudev:app", "--host", "0.0.0.0", "--port", "8000"]
+ 
