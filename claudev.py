@@ -6,7 +6,7 @@ import logging
 from datetime import datetime, timezone, timedelta
 from contextlib import asynccontextmanager, contextmanager
 
-import httpx
+import httpx 
 from fastapi import FastAPI, Request
 from dotenv import load_dotenv
 from openai import AsyncOpenAI
